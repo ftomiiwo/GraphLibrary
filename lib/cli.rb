@@ -1,6 +1,6 @@
-require_relative '../lib/GL'
+require_relative '../lib/GLT'
 require 'colorize'
-include 'Traverse'
+
 
 
 puts "----------------------------------------------------------------------------------------------------------------------".green
@@ -21,8 +21,8 @@ puts "                                                                          
 puts "----------------------------------------------------------------------------------------------------------------------".green
 puts "--------- Enter 1 or 2 for your preferred option ---------------------------------------------------------------------".blue
 puts "----------------------------------------------------------------------------------------------------------------------".green
-G = GL.new
-puts G.class
+# G = GL.new
+# puts G.class
 # user_input = gets.chomp
 # user_input = user_input.to_s
 # case user_input
