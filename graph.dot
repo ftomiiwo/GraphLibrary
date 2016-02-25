@@ -1,55 +1,15 @@
 digraph RGL__DirectedAdjacencyGraph {
-    3 [
+    83280260 [
         fontsize = 8,
-        label = 1
+        label = "[2, 6], [1, 3], [1, 4], [2], [2, 5], [4]]"
     ]
 
-    5 [
+    4 [
         fontsize = 8,
-        label = 2
+        label = ""
     ]
 
-    7 [
-        fontsize = 8,
-        label = 3
-    ]
-
-    9 [
-        fontsize = 8,
-        label = 4
-    ]
-
-    11 [
-        fontsize = 8,
-        label = 5
-    ]
-
-    13 [
-        fontsize = 8,
-        label = 6
-    ]
-
-    3 -> 5 [
-        fontsize = 8
-    ]
-
-    3 -> 13 [
-        fontsize = 8
-    ]
-
-    5 -> 7 [
-        fontsize = 8
-    ]
-
-    5 -> 9 [
-        fontsize = 8
-    ]
-
-    9 -> 11 [
-        fontsize = 8
-    ]
-
-    13 -> 9 [
+    83280260 -> 4 [
         fontsize = 8
     ]
 }
